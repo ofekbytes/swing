@@ -4,6 +4,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -11,24 +13,33 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class Test_01 {
-
-
-	public Test_01() {
+public class Test_01 implements ActionListener {
 	
-		JFrame frame = new JFrame();
-		JPanel panel = new JPanel();
-		JButton button = new JButton("click me");
-//		button.addActionListener(l);
+	
+	private JFrame frame;
+	private JPanel panel;
+	private JButton button;
+	private JLabel label;
+	
+	private int count = 0;
+	
+	public Test_01()  {
+	
+		frame = new JFrame();
 		
-		JLabel label = new JLabel("number of clicks: 0 ");
+		panel = new JPanel();
+		
+		button = new JButton("click me");
+		button.addActionListener(this);
+			
+		label = new JLabel("number of clicks: 0      ");
 		
 		
 		//jpanel.setBorder(BorderFactory.createLineBorder(Color.black));
 		//jpanel.setBorder(BorderFactory.createEmptyBorder());
 		
 		//border
-		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 60, 90));
 		
 		//layout manger
 		panel.setLayout(new GridLayout(0, 1));
@@ -55,6 +66,13 @@ public class Test_01 {
 		frame.setVisible(true);
 		
 	}
+
+	public void actionPerformed(ActionEvent e) {
+		count++;
+		label.setText("number of clicks: " + count + " "); 
+	}
+
+
 	
 	
 

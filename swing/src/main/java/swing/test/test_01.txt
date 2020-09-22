@@ -63,6 +63,39 @@ test1.
 03. JPanel object have a lot of method
 	setBorder method 
 
+04. add "label" and add it to "panel"
+
+	// add "label"
+	JLabel label = new JLabel("number of clicks: 0 ");
+
+	// add "label" to "panel"
+	panel.add(label);
+
+05. add "button" and add it to "panel" and add Action Listener
+
+	// add "button"
+	JButton button = new JButton("click me");	
+
+	// add "button" to panel
+	panel.add(button);
+
+	// add Action Listener 
+	button.addActionListener(this);	
+	
+	// and implements ActionListener to class
+	public class Test_01 implements ActionListener { }
+	
+	// when implementing the ActionListerner will need 
+	// "add unimplemented method"
+	public void actionPerformed(ActionEvent e) { }
+	
+
+06. add "panel" to frame
+	frame.add(panel, BorderLayout.CENTER);
+
+	
+
+Events of the buttons
 
 ---[/My]-------------------------------------------------------------
 
@@ -75,10 +108,8 @@ jpanel.setBorder(BorderFactory.createLineBorder(Color.black));
 jpanel.setBorder(BorderFactory.createEmptyBorder());
  		
 
-
-
-
 links:
+
 * swing
 https://www.youtube.com/watch?v=5o3fMLPY7qY
 
@@ -88,7 +119,28 @@ https://www.youtube.com/watch?v=sE0sH8vSmE4&list=PL59LTecnGM1Pr-IoQS2JlTnEXOV28-
  
 * border
  https://docs.oracle.com/javase/tutorial/uiswing/components/border.html
- //maven
+
+ * maven
  https://maven.apache.org/guides/getting-started/
+
+* swing links
+	https://introcs.cs.princeton.edu/java/15inout/
+	https://introcs.cs.princeton.edu/java/15inout/gui.java.html
+	
+	//?
+	https://introcs.cs.princeton.edu/java/15inout/images/birds-eye.png
+	
+// nice to read
+
+
+https://introcs.cs.princeton.edu/java/15inout/FunctionGraph.java.html
+https://introcs.cs.princeton.edu/java/15inout/PlotFilter.java.html
+
+
+
+
+
+// data //
+https://introcs.cs.princeton.edu/java/15inout/USA.txt
 
 
