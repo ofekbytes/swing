@@ -5,7 +5,23 @@
 
 
 ---[swing]----
+
+// swing - javatpoint //
 https://www.javatpoint.com/java-swing
+
+// swing - oracle - components //
+https://docs.oracle.com/javase/tutorial/uiswing/components/index.html
+
+
+// swing - youtube //
+
+//-----------------//
+
+
+
+
+// ??? swing - oracle ?? //
+https://docs.oracle.com/javase/tutorial/uiswing/index.html
 
 
 
