@@ -1,6 +1,7 @@
 package swing.test;
 
 import java.awt.BorderLayout;
+
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.LayoutManager;
@@ -12,6 +13,14 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+/***
+ * 
+ * class Name: Test_01
+ * purpose: counter
+ * description: raises the current number value by one at a touch of a button.
+ * 
+ */
 
 public class Test_01 implements ActionListener {
 	private JFrame frame;
