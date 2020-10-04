@@ -13,12 +13,14 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class Test_02 implements ActionListener {
+public class Test_03 implements ActionListener {
 
 	/***
 	 * 
-	 * class Name: Test_02 purpose: Login description: Login Screen (user name,
-	 * password hidden, login button);
+	 * class Name: Test_3 
+	 * "Conversion Temperature"
+	 * purpose: convert C / F / K 
+	 * 
 	 * 
 	 */
 
@@ -36,9 +38,8 @@ public class Test_02 implements ActionListener {
 	private String stPassWord = "";
 	private String stLeftSpace = "  ";
 
-	public Test_02() {
+	public Test_03() {
 
-		// TODO: move the creation to "Class Variable".
 		frame = new JFrame();
 		panel = new JPanel();
 		lblUser = new JLabel();
