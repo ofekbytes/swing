@@ -16,9 +16,10 @@ public class Sample3 extends JFrame {
 		frame.setLayout(null);
 
 		
-		
-		
-		JButton button = new JButton(new ImageIcon);
+		/****
+		 *  /home/jron/git-ofekbytes/swing/swing/src/main/java/assets/10px-squares-blue.jpg
+		 */
+		JButton button = new JButton(new ImageIcon("/home/jron/git-ofekbytes/swing/swing/src/main/java/assets/10px-squares-blue.jpg"));
 		
 		button.setBounds(10, 22, 100, 22);
 		frame.add(button);
