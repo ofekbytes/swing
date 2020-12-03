@@ -9,7 +9,8 @@ import javax.swing.JFrame;
 public class Sample1 extends JFrame {
 
 	public Sample1() {
-		JFrame frame = new JFrame("Sample 1");
+		JFrame frame = new JFrame("");
+		frame.setTitle("sample 1");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(340, 300);
 		frame.setLayout(null);

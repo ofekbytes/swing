@@ -59,7 +59,7 @@ public class Test_01 implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // frame.EXIT_ON_CLOSE
 
 		// title
-		frame.setTitle("Test_01");
+		frame.setTitle("Counter");
 
 		// set the window to a match a preferred size.
 		frame.pack();

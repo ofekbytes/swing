@@ -99,7 +99,7 @@ public class Test_03 implements ActionListener {
 		 *  center the "lblStatus" text
 		 */
 		
-
+		frame.setTitle("Test_03");
 		frame.setVisible(true);
 
 	}
@@ -113,12 +113,11 @@ public class Test_03 implements ActionListener {
 		System.out.println("password: " + stPassWord);
 		
 		if ( (stUser.equals("jron")) && stPassWord.equals("jron" ) ) {
-//				lblStatus.setText("Yeaa...." + stUser + " " + stPassWord);
-				lblStatus.setText("Noam doing sport");
+			lblStatus.setText("user and password are currect" + txtUser.getText());
 		}
 		else
 		{
-				lblStatus.setText("  Naaa...." + stUser + " " + stPassWord);
+			lblStatus.setText("  Naaa...." + stUser + " " + stPassWord + " is wrong");
 		}
 		
 		/// System.out.println("password: " + txtPassword.getText()); /// 
