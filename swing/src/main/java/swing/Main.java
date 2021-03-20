@@ -11,8 +11,8 @@ public class Main {
 		
 		System.out.println("Main constructor");
 //		new MainTest();
+//		new JL20();
 		new MainSample();
-		new JL20();
 	}
 	
 }
