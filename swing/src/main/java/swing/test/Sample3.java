@@ -21,7 +21,7 @@ public class Sample3 extends JFrame {
 		 * /home/jron/git-ofekbytes/swing/swing/src/main/java/assets/10px-squares-blue.jpg
 		 */
 		JButton button = new JButton(
-				new ImageIcon("/home/jron/git-ofekbytes/swing/swing/src/main/java/assets/10px-squares-blue.jpg"));
+				new ImageIcon("src/main/java/assets/10px-squares-blue.jpg"));
 		button.setBounds(10, 22, 100, 22);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {

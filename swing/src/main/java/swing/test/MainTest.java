@@ -6,8 +6,8 @@ public class MainTest {
 		System.out.println("MainTest");
 				
 		new Test_01();
-		new Test_02();
-		new Test_03();
+//		new Test_02();
+//		new Test_03();
 	}
 
 }
